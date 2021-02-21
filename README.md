@@ -50,6 +50,7 @@ Next.js は各 URL ごと (テンプレートごと) に SSR と SSG のどち�
 
 |                      |    静的ルーティング    |            動的ルーティング             |
 | :------------------- | :--------------------: | :-------------------------------------: |
+| 用途 |          一覧画面          |                  詳細画面                   |
 | URL の例             |       /articles        |          /articles/:articleID           |
 | パスパラメータの有無 |          なし          |                  あり                   |
 | SSR の API           | `getServerSideProps()` |         `getServerSideProps()`          |
